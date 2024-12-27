@@ -1,0 +1,19 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+
+  .btn {
+    @apply py-1 px-3 bg-primary-500 text-white rounded-md hover:bg-primary-600 transition-colors duration-300;
+  }
+
+  .InputForm{
+    @apply py-1 px-3 rounded-md focus:outline-none border-2 border-slate-300 border-opacity-50 focus:border-primary-500 focus:caret-primary-900
+  }
+}
+
+
+body {
+    font-family: 'Encode Sans Expanded', sans-serif;
+  }
