@@ -1,6 +1,6 @@
 import axios from "axios";
 import { useEffect, useState } from "react";
-import Card from "../../components/card/Card";
+import Card from "../../components/Card/Card";
 import Loading from "../../components/Loading/Loading";
 
 function Home() {
