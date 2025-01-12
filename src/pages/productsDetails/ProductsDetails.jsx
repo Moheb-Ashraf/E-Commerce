@@ -4,7 +4,7 @@ import ReactImageGallery from "react-image-gallery";
 import { useParams } from "react-router-dom";
 import "swiper/css";
 import { Swiper, SwiperSlide } from "swiper/react";
-import Card from "../../components/card/Card";
+import Card from "../../components/Card/Card";
 import { CartContext } from "../../components/Context/cart.Context";
 import Loading from "../../components/Loading/Loading";
 
